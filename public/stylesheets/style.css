@@ -1,8 +1,39 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #45aeea;
+  background-image: linear-gradient(to bottom,#54b4eb,#2fa4e7);
+  border-bottom: 1px solid #1990d5;
+  color: #fff;
+  line-height: 50px;
+}
+
+.header .brand {
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+.header .brand:hover {
+  text-decoration: none;
 }
 
 a {
-  color: #00B7FF;
+  color: #2fa4e7;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #157ab5;
+  text-decoration: underline;
+}
+
+h1 {
+  color: #317eac;
 }
