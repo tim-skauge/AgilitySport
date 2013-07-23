@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  width: 300px;
+  max-width: 480px;
   margin: 0 auto;
 }
 
@@ -36,4 +36,9 @@ a:hover, a:focus {
 
 h1 {
   color: #317eac;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 30px;
 }
