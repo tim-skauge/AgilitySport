@@ -39,11 +39,17 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
-h1 {
+h1, h2 {
   color: #317eac;
+  padding
 }
 
 h1 {
   font-size: 28px;
-  line-height: 30px;
+  line-height: 35px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 23px;
 }
