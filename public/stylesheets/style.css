@@ -52,3 +52,7 @@ h2 {
   font-size: 18px;
   line-height: 23px;
 }
+
+.result {
+	padding: 5px 0;
+}
