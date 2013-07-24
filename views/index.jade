@@ -1,29 +1,21 @@
 extends layout
 
 block content
-  h1 Welcome to #{title}
+  h1 Recent results
   ul
-    li.result
-      div
-        a(href='/results/1') SP1, large
-      div Fionia cup, Aug 20th 2013
-    li.result
-      div
-        a(href='/results/1') SP2, large
-      div Fionia cup, Aug 20th 2013
-    li.result
-      div
-        a(href='/results/1') SP3, large
-      div Fionia cup, Aug 20th 2013
-    li.result
-      div
-        a(href='/results/1') AG1, large
-      div Fionia cup, Aug 21st 2013
-    li.result
-      div
-        a(href='/results/1') AG2, large
-      div Fionia cup, Aug 21st 2013
-    li.result
-      div
-        a(href='/results/1') AG3, large
-      div Fionia cup, Aug 21st 2013
+    li.result.round
+      a(href='/results/1')
+        h2 SP1, large
+        div Fionia cup, Aug 20th 2013
+    li.result.round
+      a(href='/results/1')
+        h2 SP2, large
+        div Fionia cup, Aug 20th 2013
+     li.result.round
+      a(href='/results/1')
+        h2 SP3, large
+        div Fionia cup, Aug 20th 2013
+    li.result.round
+      a(href='/results/1')
+        h2 AG1, large
+        div Fionia cup, Aug 20th 2013
