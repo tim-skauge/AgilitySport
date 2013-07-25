@@ -14,7 +14,7 @@
             "name":"Zap"
          },
          "time":24.89,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":false
       },
@@ -25,7 +25,7 @@
             "name":"Pennie"
          },
          "time":25.76,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":false
       },
@@ -36,7 +36,7 @@
             "name":"Cena"
          },
          "time":26.51,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":false
       },
@@ -47,7 +47,7 @@
             "name":"Lion"
          },
          "time":26.92,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":false
       },
@@ -58,7 +58,7 @@
             "name":"Calli"
          },
          "time":27.11,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":false
       },
@@ -69,7 +69,7 @@
             "name":"Tristan"
          },
          "time":27.74,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":false
       },
@@ -80,7 +80,7 @@
             "name":"Kea"
          },
          "time":28.12,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":false
       },
@@ -91,7 +91,7 @@
             "name":"Saga"
          },
          "time":31.15,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":false
       },
@@ -102,7 +102,7 @@
             "name":"Jazz"
          },
          "time":31.68,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":false
       },
@@ -113,7 +113,7 @@
             "name":"Gin"
          },
          "time":32.48,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":false
       },
@@ -124,7 +124,7 @@
             "name":"Trissie"
          },
          "time":26.10,
-         "faults":5,
+         "courseFaults":5,
          "totalFaults":5,
          "disqualified":false
       },
@@ -135,7 +135,7 @@
             "name":"Lisa"
          },
          "time":27.00,
-         "faults":5,
+         "courseFaults":5,
          "totalFaults":5,
          "disqualified":false
       },
@@ -146,7 +146,7 @@
             "name":"Owen"
          },
          "time":28.04,
-         "faults":5,
+         "courseFaults":5,
          "totalFaults":5,
          "disqualified":false
       },
@@ -157,7 +157,7 @@
             "name":"Noma"
          },
          "time":30.70,
-         "faults":5,
+         "courseFaults":5,
          "totalFaults":5,
          "disqualified":false
       },
@@ -168,7 +168,7 @@
             "name":"Sweetie"
          },
          "time":32.09,
-         "faults":5,
+         "courseFaults":5,
          "totalFaults":5,
          "disqualified":false
       },
@@ -179,7 +179,7 @@
             "name":"Dexter"
          },
          "time":32.79,
-         "faults":5,
+         "courseFaults":5,
          "totalFaults":5,
          "disqualified":false
       },
@@ -190,7 +190,7 @@
             "name":"Hannah"
          },
          "time":33.97,
-         "faults":5,
+         "courseFaults":5,
          "totalFaults":5,
          "disqualified":false
       },
@@ -201,7 +201,7 @@
             "name":"Diesel"
          },
          "time":35.72,
-         "faults":5,
+         "courseFaults":5,
          "totalFaults":5,
          "disqualified":false
       },
@@ -212,7 +212,7 @@
             "name":"Pippi"
          },
          "time":38.92,
-         "faults":5,
+         "courseFaults":5,
          "totalFaults":5,
          "disqualified":false
       },
@@ -223,7 +223,7 @@
             "name":"Nascha"
          },
          "time":54.02,
-         "faults":5,
+         "courseFaults":5,
          "totalFaults":9.02,
          "disqualified":false
       },
@@ -234,7 +234,7 @@
             "name":"Orson"
          },
          "time":24.24,
-         "faults":10,
+         "courseFaults":10,
          "totalFaults":10,
          "disqualified":false
       },
@@ -245,7 +245,7 @@
             "name":"Kahlua"
          },
          "time":26.44,
-         "faults":10,
+         "courseFaults":10,
          "totalFaults":10,
          "disqualified":false
       },
@@ -256,7 +256,7 @@
             "name":"Yankee"
          },
          "time":26.94,
-         "faults":10,
+         "courseFaults":10,
          "totalFaults":10.00,
          "disqualified":false
       },
@@ -267,7 +267,7 @@
             "name":"Hubert"
          },
          "time":27.11,
-         "faults":10,
+         "courseFaults":10,
          "totalFaults":10,
          "disqualified":false
       },
@@ -278,7 +278,7 @@
             "name":"Sambo"
          },
          "time":28.24,
-         "faults":10,
+         "courseFaults":10,
          "totalFaults":10,
          "disqualified":false
       },
@@ -289,7 +289,7 @@
             "name":"Zita"
          },
          "time":28.85,
-         "faults":10,
+         "courseFaults":10,
          "totalFaults":10,
          "disqualified":false
       },
@@ -300,7 +300,7 @@
             "name":"Destiny"
          },
          "time":32.51,
-         "faults":10,
+         "courseFaults":10,
          "totalFaults":10,
          "disqualified":false
       },
@@ -311,7 +311,7 @@
             "name":"Vagi"
          },
          "time":34.07,
-         "faults":10,
+         "courseFaults":10,
          "totalFaults":10,
          "disqualified":false
       },
@@ -322,7 +322,7 @@
             "name":"Zika"
          },
          "time":36.91,
-         "faults":10,
+         "courseFaults":10,
          "totalFaults":10,
          "disqualified":false
       },
@@ -333,7 +333,7 @@
             "name":"Visna"
          },
          "time":38.18,
-         "faults":10,
+         "courseFaults":10,
          "totalFaults":10,
          "disqualified":false
       },
@@ -344,7 +344,7 @@
             "name":"Rob"
          },
          "time":42.83,
-         "faults":10,
+         "courseFaults":10,
          "totalFaults":10,
          "disqualified":false
       },
@@ -355,7 +355,7 @@
             "name":"Freddie"
          },
          "time":47.40,
-         "faults":15,
+         "courseFaults":15,
          "totalFaults":15,
          "disqualified":false
       },
@@ -366,7 +366,7 @@
             "name":"Casanova"
          },
          "time":47.02,
-         "faults":25,
+         "courseFaults":25,
          "totalFaults":25,
          "disqualified":false
       },
@@ -377,7 +377,7 @@
             "name":"Key"
          },
          "time":39.05,
-         "faults":30,
+         "courseFaults":30,
          "totalFaults":30,
          "disqualified":false
       },
@@ -388,7 +388,7 @@
             "name":"Musik"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -400,7 +400,7 @@
             "name":"Nugga"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -411,7 +411,7 @@
             "name":"Magic"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -422,7 +422,7 @@
             "name":"Helios"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -433,7 +433,7 @@
             "name":"Queeny"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -444,7 +444,7 @@
             "name":"Riddle"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -455,7 +455,7 @@
             "name":"Lotus"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -466,7 +466,7 @@
             "name":"Soda"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -477,7 +477,7 @@
             "name":"Solo"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -488,7 +488,7 @@
             "name":"Phoenix"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -499,7 +499,7 @@
             "name":"Heaven"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -510,7 +510,7 @@
             "name":"Diamond"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -521,7 +521,7 @@
             "name":"I-Que"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -532,7 +532,7 @@
             "name":"Bell"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -543,7 +543,7 @@
             "name":"Fame"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -554,7 +554,7 @@
             "name":"Fighter"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -565,7 +565,7 @@
             "name":"Sporty"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -573,10 +573,10 @@
          "name":"Lone Serwin",
          "dog":{
             "id":787,
-            "name":"stella"
+            "name":"Stella"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -584,10 +584,10 @@
          "name":"Bonnik Berthelsen ",
          "dog":{
             "id":771,
-            "name":"Clover "
+            "name":"Clover"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -598,7 +598,7 @@
             "name":"Jed"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -609,7 +609,7 @@
             "name":"Keelan"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -620,7 +620,7 @@
             "name":"Mika"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -631,7 +631,7 @@
             "name":"Cassie"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -642,7 +642,7 @@
             "name":"Vini"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -653,7 +653,7 @@
             "name":"Yvainne"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -664,7 +664,7 @@
             "name":"Esther"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -675,18 +675,18 @@
             "name":"Rudi"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
       {
-         "name":"jane stensrud",
+         "name":"Jane Stensrud",
          "dog":{
             "id":1000,
-            "name":"trollpus"
+            "name":"Trollpus"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -697,7 +697,7 @@
             "name":"Focus"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       },
@@ -708,7 +708,7 @@
             "name":"Cirkus"
          },
          "time":0,
-         "faults":0,
+         "courseFaults":0,
          "totalFaults":0,
          "disqualified":true
       }

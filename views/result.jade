@@ -19,13 +19,13 @@ block content
       th Name
       th Dog
       th Time
-      th Faults
+      th Course faults
       th Total faults 
     each result, i in results
-      tr
-        td= (!result.disqualified) ? i+1 : ''
+      tr(class= result.disqualified ? 'muted' : '')
+        td= (!result.disqualified) ? i+1 : 'Dis'
         td= result.name
         td= result.dog.name
         td= (result.time !== 0) ? result.time.toFixed(2) : ''
-        td= (result.faults !== 0) ? result.faults : ''
-        td= (results.totalFaults !== 0) ? result.totalFaults.toFixed(2) : ''
+        td= (result.courseFaults !== 0) ? result.courseFaults : ''
+        td= (result.totalFaults !== 0) ? result.totalFaults.toFixed(2) : ''
