@@ -3,7 +3,7 @@
    "dogSize":"Large",
    "competition":"Fionia Cup",
    "created":"2013-07-15T14:00:00Z",
-   "courseTime":50.00,
+   "courseTimeInSeconds":50.00,
    "courseLengthInMeters":131,
    "judge":"Morten J. Hansen",
    "results":[

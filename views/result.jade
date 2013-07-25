@@ -3,3 +3,11 @@ extends layout
 block content
   h1 Results for #{className}, #{dogSize}
   h2 #{competition}, #{createdFormatted}
+  ul.inline.center
+    li Standardtime: #{courseTimeInSeconds} sec
+    li Course length: #{courseLengthInMeters} m
+    li Judge: #{judge}
+  ol
+    each result, i in results
+      li.result.round
+        div #{i+1}. #{result.name} with #{result.dog.name}

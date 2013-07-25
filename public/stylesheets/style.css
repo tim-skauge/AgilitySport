@@ -34,7 +34,11 @@ body {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-} 
+}
+
+.center {
+  text-align: center;
+}
 
 a {
   color: #2fa4e7;
@@ -58,6 +62,12 @@ h1 {
 h2 {
   font-size: 18px;
   line-height: 23px;
+  padding-bottom: 10px;
+}
+
+ul.inline > li {
+  display: inline-block;
+  padding: 0 5px;
 }
 
 .result, .result a {
