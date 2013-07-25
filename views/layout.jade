@@ -3,15 +3,26 @@ html(lang="en")
   head
     title= title
     meta(charset="utf-8")
-    meta(name="viewport",content="width=device-width, initial-scale=1")
-    link(rel="stylesheet", href="/stylesheets/reset.css")
+    meta(name="viewport",content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="/stylesheets/bootstrap.min.css")
     link(rel="stylesheet", href="/stylesheets/style.css")
+    link(rel="stylesheet", href="/stylesheets/bootstrap-responsive.min.css")
     link(rel="icon", type="image/x-icon", href="/favicon.ico")
   body
-    .header
-      .container
-        div
-          a(href="/").brand Agility Sport
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          button(type="button", class="btn btn-navbar", data-toggle="collapse", data-target=".nav-collapse")
+            span(class="icon-bar")
+            span(class="icon-bar")
+            span(class="icon-bar")
+          a.brand(href="/") Agility Sport
+          .nav-collapse.collapse
+            ul.nav
+              li.active
+                a(href="#") Create result collection
     .content
       .container
         block content
+    script(src="http://code.jquery.com/jquery.js")
+    script(src="/javascripts/bootstrap.min.js")

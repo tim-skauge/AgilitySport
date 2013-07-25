@@ -1,13 +1,31 @@
 extends layout
 
 block content
-  h1 Results for #{className}, #{dogSize}
-  h2 #{competition}, #{createdFormatted}
+  h1.center Results for #{className}, #{dogSize}
+  h2.center #{competition}, #{createdFormatted}
   ul.inline.center
-    li Standardtime: #{courseTimeInSeconds} sec
-    li Course length: #{courseLengthInMeters} m
-    li Judge: #{judge}
-  ol
+    li
+      span Standard time 
+      strong #{courseTimeInSeconds} sec
+    li
+      span Course length 
+      strong #{courseLengthInMeters} m
+    li
+      span Judge 
+      strong #{judge}
+  table.table.table-striped
+    tr
+      th #
+      th Name
+      th Dog
+      th Time
+      th Faults
+      th Total faults 
     each result, i in results
-      li.result.round
-        div #{i+1}. #{result.name} with #{result.dog.name}
+      tr
+        td= (!result.disqualified) ? i+1 : ''
+        td= result.name
+        td= result.dog.name
+        td= (result.time !== 0) ? result.time.toFixed(2) : ''
+        td= (result.faults !== 0) ? result.faults : ''
+        td= (results.totalFaults !== 0) ? result.totalFaults.toFixed(2) : ''

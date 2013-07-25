@@ -1,33 +1,5 @@
-body {
-  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
 .container {
   max-width: 480px;
-  margin: 0 auto;
-  padding: 0 5px;
-}
-
-.header {
-  background-color: #45aeea;
-  background-image: linear-gradient(to bottom,#54b4eb,#2fa4e7);
-  border-bottom: 1px solid #1990d5;
-  color: #fff;
-  line-height: 50px;
-}
-
-.header .brand {
-  -webkit-text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
-  text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
-  color: #fff;
-}
-
-.header .brand:hover {
-  text-decoration: none;
-}
-
-.content {
-	padding-top: 10px;
 }
 
 .round {
@@ -40,35 +12,6 @@ body {
   text-align: center;
 }
 
-a {
-  color: #2fa4e7;
-  text-decoration: none;
-}
-
-a:hover, a:focus {
-  color: #157ab5;
-  text-decoration: underline;
-}
-
-h1, h2 {
-  color: #317eac;
-}
-
-h1 {
-  font-size: 28px;
-  line-height: 35px;
-}
-
-h2 {
-  font-size: 18px;
-  line-height: 23px;
-  padding-bottom: 10px;
-}
-
-ul.inline > li {
-  display: inline-block;
-  padding: 0 5px;
-}
 
 .result, .result a {
   color: #333;
