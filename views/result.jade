@@ -3,7 +3,9 @@ extends layout
 block content
   .row
     .span12
-      h1.center Results for #{className}, #{dogSize}
+      h1.center
+        span.hidden-phone Results for 
+        span #{className}, #{dogSize}
       h2.center #{competition}, #{createdFormatted}
   .row
     .span12
