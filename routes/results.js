@@ -36,6 +36,13 @@ exports.single = function(req, res) {
     return a.time - b.time;
   });
 
+  var firstTime = sampleData.results[0].time;
+  for (var i in sampleData.results) {
+    var result = sampleData.results[i];
+
+    result.afterFirst = result.disqualified ? 0 : result.time - firstTime;
+  }
+
   sampleData.title = "Results for " + sampleData.className + ", " + sampleData.dogSize + ". " + sampleData.competition + " " + sampleData.createdFormatted;
   res.render('result', sampleData);
 };
