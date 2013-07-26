@@ -10,6 +10,10 @@ exports.single = function(req, res) {
 
     result.timeFaults = Math.max(result.time - sampleData.courseTimeInSeconds, 0);
     result.totalFaults = result.courseFaults + result.timeFaults;
+
+    if (result.time) {
+      result.metersPrSecond = sampleData.courseLengthInMeters / result.time;    	
+    }
   }
 
   sampleData.results.sort(function(a, b) {
