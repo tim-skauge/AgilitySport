@@ -19,6 +19,7 @@ block content
       th Name
       th Dog
       th Time
+      th.hidden-phone Time faults
       th.hidden-phone Course faults
       th Total faults 
     each result, i in results
@@ -27,5 +28,6 @@ block content
         td= result.name
         td= result.dog.name
         td= (result.time !== 0) ? result.time.toFixed(2) : ''
+        td.hidden-phone= (result.timeFaults !== 0) ? result.timeFaults.toFixed(2) : ''
         td.hidden-phone= (result.courseFaults !== 0) ? result.courseFaults : ''
         td= (result.totalFaults !== 0) ? result.totalFaults.toFixed(2) : ''

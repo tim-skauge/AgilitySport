@@ -3,7 +3,7 @@
    "dogSize":"Large",
    "competition":"Fionia Cup",
    "created":"2013-07-15T14:00:00Z",
-   "courseTimeInSeconds":50.00,
+   "courseTimeInSeconds":50,
    "courseLengthInMeters":131,
    "judge":"Morten J. Hansen",
    "results":[
@@ -15,7 +15,6 @@
          },
          "time":24.89,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":false
       },
       {
@@ -26,7 +25,6 @@
          },
          "time":25.76,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":false
       },
       {
@@ -37,7 +35,6 @@
          },
          "time":26.51,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":false
       },
       {
@@ -48,7 +45,6 @@
          },
          "time":26.92,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":false
       },
       {
@@ -59,7 +55,6 @@
          },
          "time":27.11,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":false
       },
       {
@@ -70,7 +65,6 @@
          },
          "time":27.74,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":false
       },
       {
@@ -81,7 +75,6 @@
          },
          "time":28.12,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":false
       },
       {
@@ -92,7 +85,6 @@
          },
          "time":31.15,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":false
       },
       {
@@ -103,7 +95,6 @@
          },
          "time":31.68,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":false
       },
       {
@@ -114,7 +105,6 @@
          },
          "time":32.48,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":false
       },
       {
@@ -125,7 +115,6 @@
          },
          "time":26.10,
          "courseFaults":5,
-         "totalFaults":5,
          "disqualified":false
       },
       {
@@ -136,7 +125,6 @@
          },
          "time":27.00,
          "courseFaults":5,
-         "totalFaults":5,
          "disqualified":false
       },
       {
@@ -147,7 +135,6 @@
          },
          "time":28.04,
          "courseFaults":5,
-         "totalFaults":5,
          "disqualified":false
       },
       {
@@ -158,7 +145,6 @@
          },
          "time":30.70,
          "courseFaults":5,
-         "totalFaults":5,
          "disqualified":false
       },
       {
@@ -169,7 +155,6 @@
          },
          "time":32.09,
          "courseFaults":5,
-         "totalFaults":5,
          "disqualified":false
       },
       {
@@ -180,7 +165,6 @@
          },
          "time":32.79,
          "courseFaults":5,
-         "totalFaults":5,
          "disqualified":false
       },
       {
@@ -191,7 +175,6 @@
          },
          "time":33.97,
          "courseFaults":5,
-         "totalFaults":5,
          "disqualified":false
       },
       {
@@ -202,7 +185,6 @@
          },
          "time":35.72,
          "courseFaults":5,
-         "totalFaults":5,
          "disqualified":false
       },
       {
@@ -213,7 +195,6 @@
          },
          "time":38.92,
          "courseFaults":5,
-         "totalFaults":5,
          "disqualified":false
       },
       {
@@ -235,7 +216,6 @@
          },
          "time":24.24,
          "courseFaults":10,
-         "totalFaults":10,
          "disqualified":false
       },
       {
@@ -246,7 +226,6 @@
          },
          "time":26.44,
          "courseFaults":10,
-         "totalFaults":10,
          "disqualified":false
       },
       {
@@ -257,7 +236,6 @@
          },
          "time":26.94,
          "courseFaults":10,
-         "totalFaults":10.00,
          "disqualified":false
       },
       {
@@ -268,7 +246,6 @@
          },
          "time":27.11,
          "courseFaults":10,
-         "totalFaults":10,
          "disqualified":false
       },
       {
@@ -279,7 +256,6 @@
          },
          "time":28.24,
          "courseFaults":10,
-         "totalFaults":10,
          "disqualified":false
       },
       {
@@ -290,7 +266,6 @@
          },
          "time":28.85,
          "courseFaults":10,
-         "totalFaults":10,
          "disqualified":false
       },
       {
@@ -301,7 +276,6 @@
          },
          "time":32.51,
          "courseFaults":10,
-         "totalFaults":10,
          "disqualified":false
       },
       {
@@ -312,7 +286,6 @@
          },
          "time":34.07,
          "courseFaults":10,
-         "totalFaults":10,
          "disqualified":false
       },
       {
@@ -323,7 +296,6 @@
          },
          "time":36.91,
          "courseFaults":10,
-         "totalFaults":10,
          "disqualified":false
       },
       {
@@ -334,7 +306,6 @@
          },
          "time":38.18,
          "courseFaults":10,
-         "totalFaults":10,
          "disqualified":false
       },
       {
@@ -345,7 +316,6 @@
          },
          "time":42.83,
          "courseFaults":10,
-         "totalFaults":10,
          "disqualified":false
       },
       {
@@ -356,7 +326,6 @@
          },
          "time":47.40,
          "courseFaults":15,
-         "totalFaults":15,
          "disqualified":false
       },
       {
@@ -367,7 +336,6 @@
          },
          "time":47.02,
          "courseFaults":25,
-         "totalFaults":25,
          "disqualified":false
       },
       {
@@ -378,7 +346,6 @@
          },
          "time":39.05,
          "courseFaults":30,
-         "totalFaults":30,
          "disqualified":false
       },
       {
@@ -389,7 +356,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -401,7 +367,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -412,7 +377,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -423,7 +387,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -434,7 +397,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -445,7 +407,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -456,7 +417,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -467,7 +427,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -478,7 +437,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -489,7 +447,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -500,7 +457,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -511,7 +467,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -522,7 +477,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -533,7 +487,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -544,7 +497,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -555,7 +507,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -566,7 +517,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -577,7 +527,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -588,7 +537,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -599,7 +547,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -610,7 +557,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -621,7 +567,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -632,7 +577,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -643,7 +587,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -654,7 +597,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -665,7 +607,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -676,7 +617,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -687,7 +627,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -698,7 +637,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       },
       {
@@ -709,7 +647,6 @@
          },
          "time":0,
          "courseFaults":0,
-         "totalFaults":0,
          "disqualified":true
       }
    ]
