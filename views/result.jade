@@ -2,7 +2,8 @@ extends layout
 
 block content
   .text-center
-    h1 Results for #{className}, #{dogSize}
+    h1.hidden-sm Results for #{className}, #{dogSize}
+    h1.visible-sm #{className}, #{dogSize}
     .lead #{competition}, #{createdFormatted}
     ul.list-inline
       li
@@ -17,7 +18,7 @@ block content
     ul.list-inline
       li No faults #{noFaults}%
       li With faults #{withFaults}%
-       li Disqualified #{disqualified}%
+      li Disqualified #{disqualified}%
     .progress
       .progress-bar.progress-bar-success(style="width: #{noFaults}%")
       .progress-bar.progress-bar-warning(style="width: #{withFaults}%")
@@ -33,7 +34,9 @@ block content
         abbr(title="Meters pr second") Velocity
       th.hidden-sm Time faults
       th.hidden-sm Course faults
-      th Total faults 
+      th
+        .hidden-sm Total faults
+        .visible-sm Faults
     each result, i in results
       tr(class= result.disqualified ? 'text-muted' : '')
         td= (!result.disqualified) ? i+1 : 'Dis'
