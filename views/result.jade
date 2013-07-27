@@ -28,20 +28,20 @@ block content
       th Name
       th Dog
       th Time
-      th
-      th
+      th.hidden-sm
+      th.hidden-sm
         abbr(title="Meters pr second") Velocity
-      th.hidden-phone Time faults
-      th.hidden-phone Course faults
+      th.hidden-sm Time faults
+      th.hidden-sm Course faults
       th Total faults 
     each result, i in results
       tr(class= result.disqualified ? 'text-muted' : '')
         td= (!result.disqualified) ? i+1 : 'Dis'
         td= result.name
         td= result.dog.name
-        td= (result.time !== 0) ? result.time.toFixed(2) : ''
-        td= (result.afterFirst && result.afterFirst !== 0) ? result.afterFirst.toFixed(2) : ''
-        td= (result.metersPrSecond) ? result.metersPrSecond.toFixed(2) : ''
-        td.hidden-phone= (result.timeFaults !== 0) ? result.timeFaults.toFixed(2) : ''
-        td.hidden-phone= (result.courseFaults !== 0) ? result.courseFaults : ''
-        td= (result.totalFaults !== 0) ? result.totalFaults.toFixed(2) : ''
+        td.text-right= (result.time !== 0) ? result.time.toFixed(2) : ''
+        td.text-right.hidden-sm= (result.afterFirst && result.afterFirst !== 0) ? result.afterFirst.toFixed(2) : ''
+        td.text-right.hidden-sm= (result.metersPrSecond) ? result.metersPrSecond.toFixed(2) : ''
+        td.text-right.hidden-sm= (result.timeFaults !== 0) ? result.timeFaults.toFixed(2) : ''
+        td.text-right.hidden-sm= (result.courseFaults !== 0) ? result.courseFaults : ''
+        td.text-right= (result.totalFaults !== 0) ? result.totalFaults.toFixed(2) : ''
