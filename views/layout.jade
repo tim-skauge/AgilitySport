@@ -5,20 +5,17 @@ html(lang="en")
     meta(charset="utf-8")
     meta(name="viewport",content="width=device-width, initial-scale=1.0")
     link(rel="stylesheet", href="/stylesheets/bootstrap.css")
-    link(rel="stylesheet", href="/stylesheets/style.css")
-    link(rel="stylesheet", href="/stylesheets/bootstrap-responsive.min.css")
     link(rel="icon", type="image/x-icon", href="/favicon.ico")
   body
-    .navbar.navbar-fixed-top
-      .navbar-inner
-        .container
-          button(type="button", class="btn btn-navbar", data-toggle="collapse", data-target=".nav-collapse")
+    .navbar
+      .container
+          a.navbar-brand(href="/") Agility Sport
+          button.navbar-toggle(type="buttom", data-toggle="collapse", data-target=".navbar-responsive-collapse")
             span(class="icon-bar")
             span(class="icon-bar")
             span(class="icon-bar")
-          a.brand(href="/") Agility Sport
-          .nav-collapse.collapse
-            ul.nav
+          .nav-collapse.collapse.navbar-responsive-collapse
+            ul.nav.navbar-nav.pull-right
               li.active
                 a(href="#") Create result collection
     .container
