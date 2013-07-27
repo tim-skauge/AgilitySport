@@ -20,6 +20,16 @@ block content
           span Judge 
           strong #{judge}
   .row
+    .span6.offset3.center
+      ul.inline
+        li No faults #{noFaults}%
+        li With faults #{withFaults}%
+        li Disqualified #{disqualified}%
+      .progress
+        .bar.bar-success(style="width: #{noFaults}%")
+        .bar.bar-warning(style="width: #{withFaults}%")
+        .bar.bar-danger(style="width: #{disqualified}%")
+  .row
     .span12
       table.table.table-striped
         tr

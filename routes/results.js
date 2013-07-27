@@ -3,6 +3,9 @@ var moment = require('moment')
 
 exports.single = function(req, res) {
   sampleData.createdFormatted = moment(sampleData.created).format('LL');
+  sampleData.noFaults = 0;
+  sampleData.withFaults = 0;
+  sampleData.disqualified = 0;
 
   // calculate time faults
   for (var i in sampleData.results) {
@@ -13,6 +16,14 @@ exports.single = function(req, res) {
 
     if (result.time) {
       result.metersPrSecond = sampleData.courseLengthInMeters / result.time;    	
+    }
+
+    if (result.disqualified) {
+      sampleData.disqualified++;
+    } else if (result.totalFaults == 0) {
+      sampleData.noFaults++;
+    } else {
+      sampleData.withFaults++;
     }
   }
 
@@ -42,6 +53,10 @@ exports.single = function(req, res) {
 
     result.afterFirst = result.disqualified ? 0 : result.time - firstTime;
   }
+
+  sampleData.noFaults = Math.round((sampleData.noFaults/sampleData.results.length)*100);
+  sampleData.withFaults = Math.round((sampleData.withFaults/sampleData.results.length)*100);
+  sampleData.disqualified = 100 - sampleData.noFaults - sampleData.withFaults;
 
   sampleData.title = "Results for " + sampleData.className + ", " + sampleData.dogSize + ". " + sampleData.competition + " " + sampleData.createdFormatted;
   res.render('result', sampleData);
