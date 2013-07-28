@@ -1,13 +1,16 @@
 {
   "name": "agilitysport",
-  "version": "0.0.0",
+  "version": "1.0.0-pre",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.3.4",
+    "express": "3.3.x",
     "jade": "*",
-    "moment": "~2.1.0"
+    "moment": "2.1.x"
+  },
+  "engines": {
+    "node": "0.8.x"
   }
 }
