@@ -19,6 +19,10 @@ app.use(express.favicon(__dirname + '/public/favicon.ico'));
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
 app.use(express.methodOverride());
+app.use(function(req, res, next) {
+  res.locals.url = req.url;
+  next();
+});
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 app.disable('x-powered-by');
@@ -29,6 +33,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
+app.get('/create-result', results.create);
 app.get('/results/:id', results.single);
 
 http.createServer(app).listen(app.get('port'), function(){

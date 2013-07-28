@@ -16,8 +16,8 @@ html(lang="en")
             span(class="icon-bar")
           .nav-collapse.collapse.navbar-responsive-collapse
             ul.nav.navbar-nav.pull-right
-              li
-                a(href="#") Create result collection
+              li(class="/create-result" === url && "active")
+                a(href="/create-result") Create result collection
     .container
       block content
     script(src="http://code.jquery.com/jquery.js")

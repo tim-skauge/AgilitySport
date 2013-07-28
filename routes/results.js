@@ -1,6 +1,10 @@
 var moment = require('moment')
   , sampleData = require('./data.json');
 
+exports.create = function(req, res) {
+  res.render('result-create', { title: 'Create result' });
+}
+
 exports.single = function(req, res) {
   sampleData.createdFormatted = moment(sampleData.created).format('LL');
   sampleData.noFaults = 0;
