@@ -1,7 +1,7 @@
 extends layout
 
 block content
-  h1.text-center Create result collection
+  h1.col-sm-7.text-center Create result collection
   .row
     .col-sm-7
       .form-horizontal
@@ -35,6 +35,59 @@ block content
          .form-group
            .col-offset-3.col-lg-9
             button(type="submit").btn.btn-primary Save & add results
+    .col-sm-5
+      .bs-callout.bs-callout-danger
+        h4 Qwerty
+        p Lorem ipsum
+  h2.col-sm-7.text-center Add result
+  .row
+    .col-sm-7
+      table.table.table-striped
+        tr
+          th #
+          th Name
+          th Dog
+          th
+          th Course faults
+          th Time
+        each i in [1,2,3,4,5]
+          tr
+            td= i
+            td Rikke Wriedt
+            td Zap
+            td DKK 00083/2013
+            td 0
+            td 54.34
+      .form-horizontal
+        .form-group
+          label(for="dogName").col-lg-3.control-label Dog name
+          .col-lg-9
+            input(type="text",id="dogName",placeholder="The name of dog").form-control
+        .form-group
+          label(for="dogRegistrationNumber").col-lg-3.control-label Registration number
+          .col-lg-9
+            input(type="text",id="dogRegistrationNumber",placeholder="Enter the registration number of the dog e.g. DKK 00083/2013").form-control
+        .form-group
+          label(for="name").col-lg-3.control-label Competitor name
+          .col-lg-9
+            input(type="text",id="competitorName",placeholder="Enter the name of the competitor").form-control
+        .form-group
+          label(for="courseFaults").col-lg-3.control-label Course faults
+          .col-lg-9
+            input(type="text",id="courseFaults",placeholder="Enter number of course faults").form-control
+        .form-group
+          label(for="time").col-lg-3.control-label Time
+          .col-lg-9
+            input(type="text",id="time",placeholder="The time it took for dog to complete the course in seconds e.g. 47.35").form-control
+        .form-group
+          .col-offset-3.col-lg-9
+            .checkbox
+              label
+                input(type="checkbox",id="disqualified")
+                span Disqualified
+         .form-group
+           .col-offset-3.col-lg-9
+            button(type="submit").btn.btn-primary Add result
     .col-sm-5
       .bs-callout.bs-callout-danger
         h4 Qwerty
