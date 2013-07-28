@@ -1,4 +1,41 @@
 extends layout
 
 block content
-  h1 Create result
+  h1.text-center Create result collection
+  .row
+    .col-sm-7
+      .form-horizontal
+        .form-group
+          label(for="competition").col-lg-3.control-label Competition
+          .col-lg-9
+            input(type="text",id="competition",placeholder="Enter the name of the competition").form-control
+        .form-group
+          label(for="dogClass").col-lg-3.control-label Class
+          .col-lg-9
+            input(type="text",id="dogClass",placeholder="Enter the name of the class e.g. J1").form-control
+        .form-group
+          label(for="dogSize").col-lg-3.control-label Dog size
+          .col-lg-9
+            select(id="dogSize").form-control
+              option Small
+              option Medium
+              option Large
+        .form-group
+          label(for="courseLegth").col-lg-3.control-label Course length
+          .col-lg-9
+            input(type="text",id="courseLegth",placeholder="Enter the length of the course in meters e.g. 131").form-control
+        .form-group
+          label(for="courseTime").col-lg-3.control-label Course time
+          .col-lg-9
+            input(type="text",id="courseTime",placeholder="Enter the standard time of the course in seconds e.g. 50").form-control
+        .form-group
+          label(for="judge").col-lg-3.control-label Judge
+          .col-lg-9
+            input(type="text",id="judge",placeholder="Enter full name of the judge e.g. John Smith").form-control
+         .form-group
+           .col-offset-3.col-lg-9
+            button(type="submit").btn.btn-primary Save & add results
+    .col-sm-5
+      .bs-callout.bs-callout-danger
+        h4 Qwerty
+        p Lorem ipsum
